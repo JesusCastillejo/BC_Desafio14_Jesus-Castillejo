@@ -1,0 +1,85 @@
+.formget ul{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: centrer;
+    gap: 15px;
+    padding: 10px;
+}
+
+.formget li {
+    
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+}
+
+.formget .favname{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.formget .editdelete{
+    display: flex;
+    height: 20%;
+    gap: 15px;
+    margin-left: 160px;
+}
+
+.formget .description{
+    height: 60%;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formget .priority.baja {
+    color: green;
+    font-weight: bold;
+}
+
+.formget .priority.media {
+    color: yellow;
+    font-weight: bold;
+}
+
+.formget .priority.alta {
+    color: red;
+    font-weight: bold;
+}
+
+
+.formget li h2 {
+    color: black;
+}
+
+.formget li p {
+    color: grey;
+}
+
+.formget li button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 50px;
+    font-size: x-large;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.formget li button:active {
+    transform: scale(0.9);    
+}
